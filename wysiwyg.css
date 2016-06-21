@@ -1,0 +1,29 @@
+hella {
+  max-width: 30%;
+  background-color: teal;
+  box-sizing: border-box;
+  margin: 1.5%;
+  padding: 20px;
+  float: left;
+}
+
+hella:nth-child(2n+0) {
+  background-color: goldenrod;
+}
+
+#peopleContainer img {
+  max-width: 100%;
+}
+
+fancyName {
+  font-size: 1.5em;
+  display: block;
+}
+
+#peopleContainer {
+  margin: 0 auto;
+}
+
+.selected {
+  border: 3px dashed black;
+}
